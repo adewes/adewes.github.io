@@ -1,0 +1,4 @@
+msgid "imprint"
+msgstr "Impressum"
+msgid "imprint.html"
+msgstr "impressum.html"
