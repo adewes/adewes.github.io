@@ -2,7 +2,7 @@
 venv3/*
 .checkmate/*
 *~
-output/*
+output
 bower_components
 **/settings/common.py
 *.orig
