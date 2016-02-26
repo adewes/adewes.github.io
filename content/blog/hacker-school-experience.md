@@ -1,4 +1,4 @@
-Title: My Hacker School experience
+Title: My Hacker School Experience
 Date: 2015-02-01
 Category: Code
 Lang: en

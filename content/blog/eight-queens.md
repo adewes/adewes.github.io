@@ -1,4 +1,4 @@
-Title: Using common table expressions to solve the "eight queens" problem in SQL
+Title: Solving the "Eight Queens" Problem in SQL
 Date: 2015-02-01 10:20
 Category: Code
 Lang: en

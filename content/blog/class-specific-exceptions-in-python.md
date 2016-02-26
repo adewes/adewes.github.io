@@ -1,4 +1,4 @@
-Title: Creating class-specific exceptions in Python
+Title: Class-Specific Exceptions in Python
 Date: 2014-01-01
 Category: Code
 Lang: en

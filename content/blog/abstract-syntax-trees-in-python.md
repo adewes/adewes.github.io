@@ -1,4 +1,4 @@
-Title: Abstract syntax trees in Python
+Title: Abstract Syntax Trees in Python
 Date: 2014-06-01
 Category: Code
 Lang: en

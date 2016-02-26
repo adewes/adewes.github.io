@@ -1,4 +1,4 @@
-Title: Building a document-oriented database in Python
+Title: Building a Document-Oriented Database in Python
 Date: 2015-01-01
 Category: Code
 Lang: en

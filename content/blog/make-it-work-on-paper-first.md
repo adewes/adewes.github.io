@@ -1,4 +1,4 @@
-Title: Make it work on paper first
+Title: Make it Work on Paper First
 Date: 2014-01-06
 Category: Code
 Lang: en

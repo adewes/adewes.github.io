@@ -2,6 +2,7 @@ Title: We build the wrong things
 Date: 2015-04-01
 Category: Life
 Lang: en
+Status: draft
 
 Yesterday, at 3 a.m. in the morning -Vietnam time- I called up the German and French embassies in Hanoi, desperately trying to wake up someone from their staff and get them to help me. Along with them, I also called half a dozen other organizations whose emergency numbers I could find on the Internet. I spoke with a short-tempered and (supposedly) red-eyed German bureaucrat who was angry at me for waking her up, and with her -rather incompetent- French counterpart who just wasted my time and was not even interested in what I told him. I spelled out the words d-o-c-t-o-r and a-m-b-u-l-a-n-c-e to Vietnamese people that replied to me in broken and unintelligible English. I threatened people, yelled at them and cried on the phone while going through a nightmare that could have originated directly from one of Franz Kafka's books. One that wouldn't end until six hours later, after having talked with more than twelve people in three different languages. What had happened?
 

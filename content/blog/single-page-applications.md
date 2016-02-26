@@ -1,6 +1,7 @@
 Title: What I learned about building single-page applications
 Date: 2016-01-01
 Category: Code
+Status: draft
 Lang: en
 
 In the last two years that I have worked on QuantifiedCode (QC) I learned a lot about developing SaaS applications. Building a solution for automated code analysis is probably at the upper end of the complexity scale when it comes to SaaS applications, especially since we did it with very little external funding. In addition, QC was the first API-driven single-page application that I wrote, my first "professional" software project and also one of the most complex pieces of software that I have worked on so far. Hence it's probably unnecessary to say that I would probably do some things differently today if I should write another app of that scale.

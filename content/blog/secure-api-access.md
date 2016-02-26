@@ -1,4 +1,4 @@
-Title: Securing API calls made on behalf of a user from an untrusted environment.
+Title: Securing Third-Party API Calls
 Date: 2015-01-01 10:20
 Category: Code
 Lang: en
