@@ -39,7 +39,7 @@ ARTICLE_SAVE_AS = 'articles/{slug}.html'
 INDEX_SAVE_AS='articles/index.html'
 PAGE_URL='{slug}.html'
 PAGE_SAVE_AS='{slug}.html'
-STATIC_PATHS = ['images','scripts','downloads','pages/scripts']
+STATIC_PATHS = ['images','scripts','downloads','pages/scripts','blog/media']
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 
 DEFAULT_PAGINATION = False
