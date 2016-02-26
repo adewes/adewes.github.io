@@ -4,13 +4,14 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<link href='https://fonts.googleapis.com/css?family=Raleway:300,200' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Fira+Sans:300,200' rel='stylesheet' type='text/css'>
 <meta charset="utf-8">
 <title>{{SITENAME}} | {% block windowtitle %}{{ SITESUBTITLE }}{% endblock %}</title>
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="/theme/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="/theme/css/style.css" rel="stylesheet" type="text/css">
+<link href="/theme/css/pygments.css" rel="stylesheet" type="text/css">
 
 {% block head %}
 {% endblock %}
@@ -35,7 +36,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 {% for title, link in MENUITEMS %}
-                    <li><a href="{{SITEURL}}{{ link }}">{{ title }}</a></li>
+                    <li><a href="{{SITEURL}}{{ link }}">{%trans%}{{title}}{%endtrans%}</a></li>
                 {% endfor %}
                 {% if DISPLAY_PAGES_ON_MENU %}
                     {% for page in PAGES|sort(attribute='sortorder') %}
@@ -44,7 +45,7 @@
                 {% endif %}
                 {% if DISPLAY_CATEGORIES_ON_MENU %}
                     {% for cat, null in categories %}
-                        <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                        <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{% trans %}{{cat}}{%endtrans%}</a></li>
                     {% endfor %}
                 {% endif %}
                 <li class="toolbar">
@@ -69,21 +70,12 @@
      {% block main %}
     <div class="container">
          <div class="row-fluid">
-            <div class="col-md-12">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
                 {%block content %}{%endblock%}
             </div>
          </div>
     </div>
      {% endblock %}
-     <footer>
-          <section id="copyright">
-               <div class="container">
-                    <div class="row-fluid">
-                         <div class="col-md-12 text-right"><a href="{{SITEURL}}/{%trans%}imprint.html{%endtrans%}">{%trans%}imprint{%endtrans%}</a> </div>
-                    </div>
-               </div>
-          </section>
-     </footer>
 </div>
 
 <script>

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Projects</title>
+        <meta name="slug" content="projects" />
+        <meta name="lang" content="en" />
+        <meta name="status" content="draft" />
+        <meta name="sortorder" content="0009" />
+    </head>
+    <body>
+
+        <h2>Physics</h2>
+        [mathjax]My main interests in physics include superconductivity, numerical physics and simulation, quantum mechanics and quantum computing.
+
+        I did my PhD on experimental quantum computing using superconducting quantum bits. During the thesis, I designed and realized a two-qubit quantum processor with my colleagues and implemented a so-called universal quantum-gate on it. Such a universal gate is comparable to a classical universal logic gate (e.g. NAND) and allows to realize any arbitrary unitary quantum evolution on the processor. To characterize the gate, we performed then quantum process tomography, which consists in measuring the experimental density matrices of the two-qubit register before and after applying the gate operation for various input states. This allows to fully characterize all errors of the gate. Here you see the input and output density matrices for the two input states ( langle 00 | ) and ( langle 01 | ) (quantum state fidelities are shown above the density matrices):
+
+        <a href="http://www.andreas-dewes.de/en/wp-content/uploads/2012/12/sqrt_iswap_summary2.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border-width: 0px;" title="sqrt_iswap_summary" src="http://www.andreas-dewes.de/en/wp-content/uploads/2012/12/sqrt_iswap_summary_thumb2.png" alt="sqrt_iswap_summary" width="541" height="176" border="0" /></a>
+
+        Using this quantum gate, we ran the Grover quantum search algorithm on the processor. This algorithm finds the solution to a search problem encoded by a function (f(x)) that operates on states ( xin{00,01,10,11} ) and which is (f(y)=1) for one element (y) and ( f(x)=0 ) for ( x ne y ). Classicaly, the success probability of finding the state (y) after evaluating the function ( f(x) ) only once is bound to 25 %. However, using the quantum Grover search algorithm, this success probability can be 100 %, therefore outperforming any possible classical algorithm. The gate operation sequence of this algorithm for the two-qubit case and the resulting experimental density matrices when running it on our quantum processor are shown here for the case ( y = 0 ):
+
+        <a href="http://www.andreas-dewes.de/en/wp-content/uploads/2012/12/grover_algorithm_summary4.png"><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border-width: 0px;" title="grover_algorithm_summary" src="http://www.andreas-dewes.de/en/wp-content/uploads/2012/12/grover_algorithm_summary_thumb4.png" alt="grover_algorithm_summary" width="625" height="465" border="0" /></a>
+
+        Due to experimental errors, our implementation of the algorithms achieves not 100 % success probability but only 51 – 62 % (depending on the searched state ( y ), which however, is still better than the performance of any classical algorithm, thereby demonstrating the so-called quantum speed-up of quantum processors. More details, relevant publications and a copy of my PhD thesis can be found in the <a href="http://www.andreas-dewes.de/en/publications/">publications section</a>.
+        <h2>Statistics &amp; Machine Learning</h2>
+        (coming soon)
+        <h2>Electronics</h2>
+        (coming soon)
+        <h2>Web Programming</h2>
+        (coming soon)
+        <h2>Game Design &amp; Programming</h2>
+        In my spare time I like to work on game ideas &amp; prototypes, mostly in C++ using SDL, SFML &amp; OpenGL. Here are some screenshots of various prototypes I made during the last years.
+        <table width="764" border="0" cellspacing="0" cellpadding="2">
+        <tbody>
+        <tr>
+        <td valign="top" width="282"><a href="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/selection_thumb8.jpg"><img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="selection_thumb[8]" src="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/selection_thumb8_thumb.jpg" alt="selection_thumb[8]" width="244" height="184" border="0" /></a></td>
+        <td valign="top" width="266"><a href="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/screenshot_030_thumb11.jpg"><img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="screenshot_030_thumb[11]" src="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/screenshot_030_thumb11_thumb.jpg" alt="screenshot_030_thumb[11]" width="244" height="186" border="0" /></a></td>
+        <td valign="top" width="214"><a href="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/screenshot_006_thumb9.jpg"><img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="screenshot_006_thumb[9]" src="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/screenshot_006_thumb9_thumb.jpg" alt="screenshot_006_thumb[9]" width="244" height="184" border="0" /></a></td>
+        </tr>
+        <tr>
+        <td valign="top" width="295"><a href="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/day_2_1_thumb7.jpg"><img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="day_2_1_thumb[7]" src="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/day_2_1_thumb7_thumb.jpg" alt="day_2_1_thumb[7]" width="244" height="186" border="0" /></a></td>
+        <td valign="top" width="274"><a href="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/selection_thumb21.jpg"><img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border: 0px;" title="selection_thumb[21]" src="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/selection_thumb21_thumb.jpg" alt="selection_thumb[21]" width="244" height="184" border="0" /></a></td>
+        <td valign="top" width="219"><a href="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/early_1_thumb6.jpg"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="early_1_thumb[6]" src="http://www.andreas-dewes.de/en/wp-content/uploads/2013/02/early_1_thumb6_thumb.jpg" alt="early_1_thumb[6]" width="244" height="184" border="0" /></a></td>
+        </tr>
+        </tbody>
+        </table> 
+    </body>
+</html>
+

@@ -1,8 +1,29 @@
 body
 {
-    font-family: "Raleway", Helvetica, Sans Serif;
-    font-weight:300;
+    font-family: "Fira Sans", Sans Serif;
+    font-weight:200;
     font-size:18px;
+}
+
+.page-header .panel{
+    border-bottom:none;
+    box-shadow:none;
+    -webkit-box-shadow:none;
+}
+
+p{
+    margin-top:10px;
+    margin-bottom:30px;
+}
+
+pre{
+    background: #fff;
+    overflow-x:auto;
+    color:#222;
+    word-break:normal;
+    font-size:14px;
+    word-wrap:normal;
+    margin-bottom:20px;
 }
 
 .headline{
@@ -88,14 +109,7 @@ ul.links{
     }
 
     header{
-        border-bottom: 10px solid #fa0;
-    }
-
-    footer{
-        position:fixed;
-        bottom:0;
-        width:100%;
-        margin:20px 0 20px 0;
+        border-bottom: 2px solid #fea;
     }
 
     .headline h1{

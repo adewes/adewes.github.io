@@ -17,6 +17,11 @@ TIMEZONE = 'Europe/Paris'
 I18N_SUBSITES = {
     'de': {
         'SITENAME': 'Andreas Dewes',
+#        'MENUITEMS' : [('Artikel','/artikel')],
+        'MENUITEMS' : [],
+        'ARTICLE_URL' : 'artikel/{slug}.html',
+        'ARTICLE_SAVE_AS' : 'artikel/{slug}.html',
+        'INDEX_SAVE_AS' : 'artikel/index.html',
         }
     }
 
@@ -28,16 +33,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 THEME="themes/andreas-dewes"
 DISPLAY_CATEGORIES_ON_MENU=False
-MENUITEMS = [('Blog','/blog')]
-ARTICLE_URL = 'blog/{slug}.html'
-ARTICLE_SAVE_AS = 'blog/{slug}.html'
+MENUITEMS = [('Articles','/articles')]
+ARTICLE_URL = 'articles/{slug}.html'
+ARTICLE_SAVE_AS = 'articles/{slug}.html'
+INDEX_SAVE_AS='articles/index.html'
 PAGE_URL='{slug}.html'
 PAGE_SAVE_AS='{slug}.html'
-INDEX_SAVE_AS='blog/index.html'
 STATIC_PATHS = ['images','scripts','downloads','pages/scripts']
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
