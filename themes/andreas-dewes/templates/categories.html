@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 {% block title %}{{ SITENAME }} <small>[categories]</small>{% endblock %}
 {% block content %}
-<ul>
+<div class="page-header">
+    <h1>{% trans %}Categories{% endtrans %}</h1>
+</div>
 {% for category, articles in categories %}
-	<li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
+	<h2><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></h2>
+    <hr />
 {% endfor %}
-</ul>
 {% endblock %}
