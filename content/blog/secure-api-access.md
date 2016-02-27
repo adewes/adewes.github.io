@@ -26,7 +26,7 @@ After thinking a bit about this, I think I found an easy, elegant way to solve t
     <li>The API server in turn would rehash the data obtained from the client and verify that the hash matches the one it received from the client.</li>
     <li>If it does, the API call is treated as if it was made using the original access token of the user, and the results are returned to the client.</li>
 </ul>
-In short, this method allows to make authenticated calls to an API server on behalf of a user from an untrusted client, without exposing the required access token to that client. Here's a diagram explaining the process: <img class="aligncenter size-large wp-image-313" src="{filename}media/api_flow.png" alt="api_flow" width="660" height="371" />
+In short, this method allows to make authenticated calls to an API server on behalf of a user from an untrusted client, without exposing the required access token to that client. Here's a diagram explaining the process: <img class="img-responsive" src="{filename}media/api_flow.png" alt="api_flow"/>
 
 (please note that arrows going from the API server on the left to the client on the right represent information transferred directly between these two, and NOT transmitted through the backend server)
 

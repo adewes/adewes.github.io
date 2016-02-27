@@ -23,7 +23,7 @@ I present you the "hello, world!" of common-table-expressions:
           VALUES(1) --the initial SELECT (actually just a single value here)
         UNION ALL
           --the recursive query (will yield one additional row containing the value of x+1)
-          SELECT x+1 FROM cnt WHERE x &lt; 100 
+          SELECT x+1 FROM cnt WHERE x < 100 
       )
     SELECT x FROM cnt; --this will return the numbers from 1 to 100
 
@@ -166,7 +166,7 @@ Here, we also add a '0' to the resulting row of our seed table, which is simply 
      positions(i) as (
      VALUES(0)
      UNION SELECT ALL
-     i+1 FROM positions WHERE i &lt; 63
+     i+1 FROM positions WHERE i < 63
      )
     -- ... (more to follow)
 
@@ -221,7 +221,7 @@ yields the following, rather compact SQL statement:
     positions(i) as (
       VALUES(0)
       UNION SELECT ALL
-      i+1 FROM positions WHERE i &lt; 63
+      i+1 FROM positions WHERE i < 63
       ),
     solutions(board, n_queens) AS (
       SELECT '----------------------------------------------------------------', cast(0 AS bigint) 
@@ -230,7 +230,7 @@ yields the following, rather compact SQL statement:
       SELECT
         substr(board, 1, i) || '*' || substr(board, i+2),n_queens + 1 as n_queens
         FROM positions AS ps, solutions 
-      WHERE n_queens &lt; 8
+      WHERE n_queens < 8
         AND substr(board,1,i) != '*'
         AND NOT EXISTS (
           SELECT 1 FROM positions WHERE
@@ -272,7 +272,7 @@ and runs the query on it:
     conn = sqlite3.connect(':memory:')
 
     version = sqlite3.sqlite_version.split(".")
-    if version[1] &lt; 8 or version[2] &lt; 3:
+    if version[1] < 8 or version[2] < 3:
         print "Warning: Your SQLite version might be too old to run this query! You need at least 3.8.3."
 
     with open('eight_queens.sql','r') as script_file:

@@ -5,7 +5,7 @@ Lang: en
 
 Last week I released the first version of BlitzDB: A document-based, object-oriented database written entirely in Python. Blitz is intended as a "low-end" replacement for MongoDB for use cases where you need a document-oriented data store but do not want to rely on additional third-party software. Blitz provides MongoDB-like querying capabilities and has a range of <a href="http://blitzdb.readthedocs.org">interesting features</a>.
 
-The code can be found on <a href="https://github.com/adewes/blitzdb">Github</a> and the documentation is hosted at <a href="http://blitz-db.readthedocs.org">ReadTheDocs</a>. A downloadable version can be obtained from <a href="https://pypi.python.org/pypi/blitzdb/0.1.2">PyPi</a>, e.g. using `pip` or `easy_install`.
+The code can be found on <a href="https://github.com/adewes/blitzdb">Github</a> and the documentation is hosted at <a href="http://blitzdb.readthedocs.org">ReadTheDocs</a>. A downloadable version can be obtained from <a href="https://pypi.python.org/pypi/blitzdb/0.1.2">PyPi</a>, e.g. using `pip` or `easy_install`.
 
 <h2>Making it available</h2>
 
